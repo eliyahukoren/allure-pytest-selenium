@@ -11,3 +11,6 @@ pytest -m smoke --alluredir=./result ./tests
 ''
 allure serve ./result
 ''
+
+report example: https://allure-framework.github.io/allure-demo/10/index.html#
+docs: https://github.com/allure-framework/allure-python/tree/master/allure-pytest
