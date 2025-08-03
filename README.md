@@ -8,6 +8,11 @@ pytest --alluredir=./result ./tests
 pytest -m smoke --alluredir=./result ./tests
 '''
 
+## Install allure cli
+'''
+npm i -g allure-commandline --save-dev
+'''
+
 ''
 allure serve ./result
 ''
